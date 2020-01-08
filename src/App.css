@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-image: url(lilypads.png);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-size: large;
+  color: black;
+  font-style: italic;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Card {
+  background-color: cadetblue;
+  margin: 0.6em auto;
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+}
+
+.CardImage img {
+  widows: 260px;
+}
+
+.Card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Paginator {
+  display: flex;
+  margin: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.Filters {
+  display: flex;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Filters {
+    flex-wrap: wrap;
+  }
+}

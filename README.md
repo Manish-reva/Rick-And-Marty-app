@@ -1,1 +1,1 @@
-# Rick-And-Marty-app
+# Rick and Morty React App
